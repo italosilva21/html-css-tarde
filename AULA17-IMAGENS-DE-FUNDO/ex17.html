@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundo</title>
+  <style>
+    body {
+      background-image: url("imagens/wallpaper004.jpg");
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #q1 {
+      background-color: aqua;
+      display: inline-block;
+
+    }
+
+    #q2 {
+      background-image: linear-gradient(yellow, orange);
+    }
+
+    #q3 {
+      background-image: url("imagens/pattern003.png");
+    }
+
+    #q4 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: repeat;
+      background-size: 30%;
+    }
+
+    #q5 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30%;
+    }
+
+    #q6 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: repeat-x;
+      background-position: center;
+      background-size: 25%;
+    }
+
+    #q7 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: repeat-y;
+      background-position: center;
+      background-size: 30%;
+    }
+
+    #f1 {
+      background-image: url("imagens/github-pp.png");
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: 30%;
+    }
+
+    #f2 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 30%;
+    }
+
+    #f3 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: right top;
+    }
+
+    #f4 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: left top;
+    }
+
+    #f5 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: center center;
+    }
+
+    #f6 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: right center;
+    }
+
+    #f7 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: left bottom;
+    }
+
+    #f8 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: center bottom;
+    }
+
+    #f9 {
+      background-image: url("imagens/github-pp.png");
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: right bottom;
+    }
+
+    #g1 {
+      background-image: url("imagens/github-pp.png");
+      background-size: auto;
+      background-repeat: no-repeat;
+
+    }
+
+    #g2 {
+      background-image: url("imagens/github-pp.png");
+      background-size: 30%;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+
+    }
+
+    #g3 {
+      background-image: url("imagens/github-pp.png");
+      background-size: cover;
+      background-size: 100%;
+    }
+
+    #g4 {
+      background-image: url("imagens/github-pp.png");
+      background-size: contain;
+
+
+    }
+
+
+
+
+
+    main {
+      background-color: white;
+      width: 620px;
+      padding: 5px;
+      margin: auto;
+      border: 1px solid darkblue;
+      border-radius: 10px;
+
+
+    }
+
+    footer {
+      background-color: #4450e4;
+      text-align: center;
+      font-size: 0.8em;
+
+
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+
+    }
+
+
+    .quadrado {
+      display: inline-block;
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: lightgray;
+      width: 70px;
+      height: 70px;
+      background-color: white;
+
+    }
+
+    .caixas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+
+    }
+
+    .triangulo {
+      text-align: center;
+      margin: 1%;
+    }
+
+    figcaption {
+      text-align: center;
+      font-size: 0.8em;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      background-color: #4450e4;
+      padding: 10px;
+      
+
+    }
+    /*teste1*/
+
+    header h1 {
+      background-image: url("imagens/wallpaper005.jpg");
+      width: 300px;
+      padding: 10px;
+      background-size: cover;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Background</h1>
+  </header>
+  <main>
+    <article>
+      <p>O exercício a seguir faz um resulmo de tudo que aprendi sobre a imagens e cores de fundo, ultilizando a propriedade background em HTMl e CSS3.</p>
+      <section>
+        <h2>Cores no plano de fundo</h2>
+        <p>De forma geral, existem trés manerias mais simples de preencher uma caixa em HTML, usando <Strong>cores solidás,gradientes ou imagens.</Strong> Essas formas são representadas a seguir. </p>
+        <div class="caixas">
+          <figure>
+            <div class="quadrado" id="q1"></div>
+            <figcaption>Cor solida</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="q2"></div>
+            <figcaption>Gradiente</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="q3"></div>
+            <figcaption>Imagem</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Imagens</h2>
+        <p>É possivel colocar <strong>Imagens</strong> como fundo de uma caixa e configurar suas propriedades de diversas maneiras.</p>
+        <h2>background-repeat</h2>
+        <p>Com essa prioridade, é possivel definir se uma imagem de fundo irá se <strong>repetir</strong> quando o tamanho da caixa em que estiver contida for maior do que o tamanho da imagem em si. Por padrão ela sempre vai ser repetida. Essa propriedade possui 4 valors:</p>
+        <div class="caixas">
+          <figure>
+            <div class="quadrado" id="q4"></div>
+            <figcaption>repeat</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="q5"></div>
+            <figcaption>no-repeat</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="q6"></div>
+            <figcaption>repeat-x</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="q7"></div>
+            <figcaption>repeat-y</figcaption>
+          </figure>
+        </div>
+      </section>
+
+
+
+
+
+      <section>
+        <h2>background-position</h2>
+        <p>Além de escolher o nivel de repetição do background, também podemos mudar a posição de referência de inicio das repetições. Por padrão, é consideração o canto esquerdo superior (left top), mas podemos ter várias opções</p>
+        <div class="caixas">
+          <figure>
+            <div class="quadrado" id="f1"></div>
+            <figcaption>left top</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="f2"></div>
+            <figcaption>center top</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="f3"></div>
+            <figcaption>right top</figcaption>
+          </figure>
+        </div>
+
+        <div class="caixas">
+          <figure>
+            <div class="quadrado" id="f4"></div>
+            <figcaption>left center</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="f5"></div>
+            <figcaption>center center</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="f6"></div>
+            <figcaption>right center</figcaption>
+          </figure>
+        </div>
+
+        <div class="caixas">
+          <figure>
+            <div class="quadrado" id="f7"></div>
+            <figcaption>left bottom</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="f8"></div>
+            <figcaption>center bottom</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="f9"></div>
+            <figcaption>rightbottom</figcaption>
+          </figure>
+        </div>
+
+      </section>
+      <section>
+        <h2>background-size</h2>
+        <p>Outra coisa que podemos fazer é redimensionar a imagem para foeçá-la a caber na caixa. Por padrão, nenhum redimensionamento será aplicado, e a imagem será exibida do seu tamanho natural. Porém, podemos usar a propriedade background-size para alterar esse comportamento.</p>
+        <div class="caixas">
+          <figure>
+            <div class="quadrado" id="g1"></div>
+            <figcaption>auto</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="g2"></div>
+            <figcaption>[x]%</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="g3"></div>
+            <figcaption>cover</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="g4"></div>
+            <figcaption>contain</figcaption>
+          </figure>
+        </div>
+      </section>
+      <p>
+        <strong>auto:</strong>A imagem de fundo será aplicada em seu tamanho original.
+        <br>
+        <strong>[x]%</strong>Redimensiona a largura da imagem e faz a altura se adaptar automaticamente.
+        <br>
+        <strong>cover:</strong>Muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela, sem nenhum corte.
+        <br>
+        <strong>contain:</strong> Rendimensiona a imagem para que ela cubra o contênier, mesmo que para isso o ocorram alguns eventuais cortes.
+      </p>
+      <h2>background Attachment</h2>
+      <p>A última propriedade que podemos configurar é o vinculo (attachment) da imagem de fundo com o resto do documento, principalmente se o conteúdo for maior do que a altura da página e seja necessário vazar uma rolagem vertical.</p>
+      <p>
+
+        <strong>scroll:</strong>(padrão) a imagem de fundo vai rolar junto com o conteúdo.
+        <br>
+        <strong>fixed:</strong>A imagem de fundo vai ficar o conteúdo vai sendo rolado (essa prpriedade você pode observar no fundo desse site).
+      </p>
+    </article>
+    <section>
+      <p class="triangulo">E for isso que aprendi sobre as <strong>imagens de fundo</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Exercicio Aula 17: ultilizando github,HTNL e CSS5, feito por italosilva <a href="https://github.com/italosilva21/html-css-italo-Publica.git">Meu github</a></p>
+  </footer>
+
+
+
+</body>
+
+</html>
