@@ -6,10 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fundo</title>
   <style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
     body {
       background-image: url("imagens/wallpaper004.jpg");
+      border: 2px solid rgb(6, 238, 6);
+      background-attachment: fixed;
 
     }
+    
 
 
 
@@ -164,18 +174,26 @@
     main {
       background-color: white;
       width: 620px;
-      padding: 5px;
-      margin: auto;
+      padding: 0px;
       border: 1px solid darkblue;
       border-radius: 10px;
+      margin: 50px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin: auto;
+      
+      
 
 
     }
 
     footer {
       background-color: #4450e4;
-      text-align: center;
-      font-size: 0.8em;
+     height: 25px;
+     text-align: center;
+     color: white;
+
+      
 
 
     }
@@ -214,11 +232,12 @@
     figcaption {
       text-align: center;
       font-size: 0.8em;
+     
     }
 
     h1 {
       text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: "Roboto Slab", serif;
     }
 
     header {
@@ -227,15 +246,46 @@
       
 
     }
-    /*teste1*/
+    
 
     header h1 {
       background-image: url("imagens/wallpaper005.jpg");
       width: 300px;
-      padding: 10px;
+      padding: 5px;
       background-size: cover;
       margin: auto;
     }
+    p{
+     text-align: 18px;
+     font-size: 15px;
+     line-height: 1.5em;
+   padding: 0px 15px 10px 10px;
+   font-family: "Source Sans 3", sans-serif;
+   
+    
+     
+    }
+    h2{
+      padding: 5px;
+      font-family: "Roboto Slab", serif;
+    }
+    .linha{
+      border-bottom: 1px solid #4450e4;
+   
+    }
+    .bo{
+      text-indent: 15px;
+    
+      
+    }
+    .bombom{
+      text-align: center;
+    }
+    
+ 
+    
+    
+    
   </style>
 </head>
 
@@ -245,10 +295,11 @@
   </header>
   <main>
     <article>
-      <p>O exercício a seguir faz um resulmo de tudo que aprendi sobre a imagens e cores de fundo, ultilizando a propriedade background em HTMl e CSS3.</p>
-      <section>
+      
+      <p class="linha bombom">O exercício a seguir faz um resulmo de tudo que aprendi sobre a imagens e cores de fundo, ultilizando a propriedade background em HTMl e CSS3.</p>
+      <section class=" linha">
         <h2>Cores no plano de fundo</h2>
-        <p>De forma geral, existem trés manerias mais simples de preencher uma caixa em HTML, usando <Strong>cores solidás,gradientes ou imagens.</Strong> Essas formas são representadas a seguir. </p>
+        <p class="bo">De forma geral, existem trés manerias mais simples de preencher uma caixa em HTML, usando <Strong>cores solidás,gradientes ou imagens.</Strong> Essas formas são representadas a seguir. </p>
         <div class="caixas">
           <figure>
             <div class="quadrado" id="q1"></div>
@@ -267,9 +318,9 @@
 
       <section>
         <h2>Imagens</h2>
-        <p>É possivel colocar <strong>Imagens</strong> como fundo de uma caixa e configurar suas propriedades de diversas maneiras.</p>
+        <p class="bo">É possivel colocar <strong>Imagens</strong> como fundo de uma caixa e configurar suas propriedades de diversas maneiras.</p>
         <h2>background-repeat</h2>
-        <p>Com essa prioridade, é possivel definir se uma imagem de fundo irá se <strong>repetir</strong> quando o tamanho da caixa em que estiver contida for maior do que o tamanho da imagem em si. Por padrão ela sempre vai ser repetida. Essa propriedade possui 4 valors:</p>
+        <p class="bo">Com essa prioridade, é possivel definir se uma imagem de fundo irá se <strong>repetir</strong> quando o tamanho da caixa em que estiver contida for maior do que o tamanho da imagem em si. Por padrão ela sempre vai ser repetida. Essa propriedade possui 4 valors:</p>
         <div class="caixas">
           <figure>
             <div class="quadrado" id="q4"></div>
@@ -295,8 +346,8 @@
 
 
       <section>
-        <h2>background-position</h2>
-        <p>Além de escolher o nivel de repetição do background, também podemos mudar a posição de referência de inicio das repetições. Por padrão, é consideração o canto esquerdo superior (left top), mas podemos ter várias opções</p>
+        <h2>background-Position</h2>
+        <p class="bo">Além de escolher o nivel de repetição do background, também podemos mudar a posição de referência de inicio das repetições. Por padrão, é consideração o canto esquerdo superior (left top), mas podemos ter várias opções</p>
         <div class="caixas">
           <figure>
             <div class="quadrado" id="f1"></div>
@@ -344,8 +395,8 @@
 
       </section>
       <section>
-        <h2>background-size</h2>
-        <p>Outra coisa que podemos fazer é redimensionar a imagem para foeçá-la a caber na caixa. Por padrão, nenhum redimensionamento será aplicado, e a imagem será exibida do seu tamanho natural. Porém, podemos usar a propriedade background-size para alterar esse comportamento.</p>
+        <h2>Background-Size</h2>
+        <p class="bo">Outra coisa que podemos fazer é redimensionar a imagem para foeçá-la a caber na caixa. Por padrão, nenhum redimensionamento será aplicado, e a imagem será exibida do seu tamanho natural. Porém, podemos usar a propriedade background-size para alterar esse comportamento.</p>
         <div class="caixas">
           <figure>
             <div class="quadrado" id="g1"></div>
@@ -364,7 +415,7 @@
             <figcaption>contain</figcaption>
           </figure>
         </div>
-      </section>
+      </section  >
       <p>
         <strong>auto:</strong>A imagem de fundo será aplicada em seu tamanho original.
         <br>
@@ -374,22 +425,20 @@
         <br>
         <strong>contain:</strong> Rendimensiona a imagem para que ela cubra o contênier, mesmo que para isso o ocorram alguns eventuais cortes.
       </p>
-      <h2>background Attachment</h2>
-      <p>A última propriedade que podemos configurar é o vinculo (attachment) da imagem de fundo com o resto do documento, principalmente se o conteúdo for maior do que a altura da página e seja necessário vazar uma rolagem vertical.</p>
-      <p>
+      <h2>Background Attachment</h2 >
+      <p class="bo">A última propriedade que podemos configurar é o vinculo (attachment) da imagem de fundo com o resto do documento, principalmente se o conteúdo for maior do que a altura da página e seja necessário vazar uma rolagem vertical.</p>
+      <p class="linha">
 
         <strong>scroll:</strong>(padrão) a imagem de fundo vai rolar junto com o conteúdo.
         <br>
         <strong>fixed:</strong>A imagem de fundo vai ficar o conteúdo vai sendo rolado (essa prpriedade você pode observar no fundo desse site).
-      </p>
+      </p >
     </article>
-    <section>
-      <p class="triangulo">E for isso que aprendi sobre as <strong>imagens de fundo</strong></p>
-    </section>
+   <p class="triangulo">E foi isso que aprendi sobre as <strong>Imagens de fundo</strong></p>
   </main>
 
   <footer>
-    <p>Exercicio Aula 17: ultilizando github,HTNL e CSS5, feito por italosilva <a href="https://github.com/italosilva21/html-css-italo-Publica.git">Meu github</a></p>
+    <p >Exercicio Aula 17: ultilizando github,HTNL e CSS5, feito por italosilva <a href="https://github.com/italosilva21/html-css-tarde.git">Meu Github</a></p>
   </footer>
 
 
