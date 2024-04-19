@@ -177,10 +177,13 @@
       padding: 0px;
       border: 1px solid darkblue;
       border-radius: 10px;
-      margin: 50px;
-      margin-bottom: 20px;
-      margin-top: 20px;
+      margin: 30px;
+     
+      
+      
       margin: auto;
+      
+     
       
       
 
@@ -226,7 +229,7 @@
 
     .triangulo {
       text-align: center;
-      margin: 1%;
+      margin: 0%;
     }
 
     figcaption {
@@ -235,7 +238,7 @@
      
     }
 
-    h1 {
+    .prf{
       text-align: center;
       font-family: "Roboto Slab", serif;
     }
@@ -243,6 +246,7 @@
     header {
       background-color: #4450e4;
       padding: 10px;
+      margin-bottom: 30px;
       
 
     }
@@ -250,10 +254,11 @@
 
     header h1 {
       background-image: url("imagens/wallpaper005.jpg");
-      width: 300px;
-      padding: 5px;
+      width: 185px;
+      padding: 2px;
       background-size: cover;
       margin: auto;
+     border-radius:3px;
     }
     p{
      text-align: 18px;
@@ -266,13 +271,23 @@
      
     }
     h2{
-      padding: 5px;
+      padding: 10px;
       font-family: "Roboto Slab", serif;
     }
-    .linha{
-      border-bottom: 1px solid #4450e4;
-   
+    h1{
+      font-family: "Roboto Slab", serif ;
+      font-size: 2em;
+      padding: 10px;
     }
+    ul{
+      list-style-position: inside;
+      list-style-type: none;
+      margin: 0.5em;
+      margin-left: -20px;
+      margin-right: -10px;
+    }
+   
+    
     .bo{
       text-indent: 15px;
     
@@ -280,7 +295,17 @@
     }
     .bombom{
       text-align: center;
+      text-indent: 15px;
+
     }
+    .linha{
+      border-top: 1px solid #4450e4;
+      
+      
+    }
+   
+    
+    
     
  
     
@@ -291,17 +316,17 @@
 
 <body>
   <header>
-    <h1>Background</h1>
+    <h1 class="prf">Background</h1>
   </header>
   <main>
     <article>
       
-      <p class="linha bombom">O exercício a seguir faz um resulmo de tudo que aprendi sobre a imagens e cores de fundo, ultilizando a propriedade background em HTMl e CSS3.</p>
+      <p class=" bombom">O exercício a seguir faz um resulmo de tudo que aprendi sobre a imagens e cores de fundo, ultilizando a propriedade background em HTMl e CSS3.</p>
       <section class=" linha">
-        <h2>Cores no plano de fundo</h2>
+        <h1>Cores no plano de fundo</h1>
         <p class="bo">De forma geral, existem trés manerias mais simples de preencher uma caixa em HTML, usando <Strong>cores solidás,gradientes ou imagens.</Strong> Essas formas são representadas a seguir. </p>
         <div class="caixas">
-          <figure>
+          <figure >
             <div class="quadrado" id="q1"></div>
             <figcaption>Cor solida</figcaption>
           </figure>
@@ -310,14 +335,14 @@
             <figcaption>Gradiente</figcaption>
           </figure>
           <figure>
-            <div class="quadrado" id="q3"></div>
+            <div class="quadrado" id="q3"></div >
             <figcaption>Imagem</figcaption>
           </figure>
         </div>
       </section>
 
-      <section>
-        <h2>Imagens</h2>
+      <section class="linha">
+        <h1>Imagens</h1>
         <p class="bo">É possivel colocar <strong>Imagens</strong> como fundo de uma caixa e configurar suas propriedades de diversas maneiras.</p>
         <h2>background-repeat</h2>
         <p class="bo">Com essa prioridade, é possivel definir se uma imagem de fundo irá se <strong>repetir</strong> quando o tamanho da caixa em que estiver contida for maior do que o tamanho da imagem em si. Por padrão ela sempre vai ser repetida. Essa propriedade possui 4 valors:</p>
@@ -416,29 +441,34 @@
           </figure>
         </div>
       </section  >
-      <p>
-        <strong>auto:</strong>A imagem de fundo será aplicada em seu tamanho original.
-        <br>
-        <strong>[x]%</strong>Redimensiona a largura da imagem e faz a altura se adaptar automaticamente.
-        <br>
-        <strong>cover:</strong>Muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela, sem nenhum corte.
-        <br>
-        <strong>contain:</strong> Rendimensiona a imagem para que ela cubra o contênier, mesmo que para isso o ocorram alguns eventuais cortes.
-      </p>
-      <h2>Background Attachment</h2 >
+      
+        <section>
+          <ul>
+            <li><strong>auto:</strong>A imagem de fundo será aplicada em seu tamanho original.</li>
+          
+            <li><strong>[x]%</strong>Redimensiona a largura da imagem e faz a altura se adaptar automaticamente.</li>
+          
+            <li><strong>cover:</strong>Muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela, sem nenhum cortes.</li>
+          
+            <li><strong>contain:</strong> Rendimensiona a imagem para que ela cubra o contênier, mesmo que para isso o ocorram alguns eventuais cortes.</li>
+          </ul>
+        </section>
+      <h2>Background Attachment</h2>
       <p class="bo">A última propriedade que podemos configurar é o vinculo (attachment) da imagem de fundo com o resto do documento, principalmente se o conteúdo for maior do que a altura da página e seja necessário vazar uma rolagem vertical.</p>
-      <p class="linha">
+     
 
-        <strong>scroll:</strong>(padrão) a imagem de fundo vai rolar junto com o conteúdo.
-        <br>
-        <strong>fixed:</strong>A imagem de fundo vai ficar o conteúdo vai sendo rolado (essa prpriedade você pode observar no fundo desse site).
-      </p >
-    </article>
-   <p class="triangulo">E foi isso que aprendi sobre as <strong>Imagens de fundo</strong></p>
+        <ul>
+          <strong>scroll:</strong>(padrão) a imagem de fundo vai rolar junto com o conteúdo.
+          <br>
+          <strong>fixed:</strong>A imagem de fundo vai ficar o conteúdo vai sendo rolado (essa prpriedade você pode observar no fundo desse site).
+        </ul>
+      
+    </article >
+   <p class=" linha triangulo">E foi isso que aprendi sobre as <strong>Imagens de fundo</strong></p>
   </main>
 
   <footer>
-    <p >Exercicio Aula 17: ultilizando github,HTNL e CSS5, feito por italosilva <a href="https://github.com/italosilva21/html-css-tarde.git">Meu Github</a></p>
+    <p >Exercicio Aula 17: ultilizando github,HTNL e CSS5, feito por  <a href="https://github.com/italosilva21/html-css-tarde.git">italosilva</a></p>
   </footer>
 
 
