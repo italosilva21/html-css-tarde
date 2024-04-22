@@ -1,0 +1,21 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+table{
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+
+  width: 50px;
+}
+tr.pirulito{
+ font-weight: bold; 
+ background-color: #e3e3e3;
+}
+td.vermelho{
+  color: red;
+}
+  
+  
