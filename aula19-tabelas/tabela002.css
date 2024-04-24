@@ -20,9 +20,7 @@ width: 100px;
  font-weight: bold;
  text-align: center;
 }
-.negrito{
-  font-weight: bold;
-}
+
 .Azul{
   color: rgb(71, 167, 199);
   font-weight: bold;
@@ -30,6 +28,7 @@ width: 100px;
 }
 th{
   background-color: rgba(238, 238, 13, 0.233);
+  font-weight: normal;
 }
 caption{
   font-weight: bold;

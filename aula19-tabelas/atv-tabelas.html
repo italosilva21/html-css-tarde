@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <link rel="stylesheet" href="atv-tabelas.css">
+</head>
+
+<body>
+  <header><h1>Tabelas</h1></header>
+  <main>
+    <article>
+      <h2>Tabelas Simples</h2>
+    <p>Tabelas são um recurso muito importante para a organização dados no geral,em HTML, para criar uma tabela usa-se a <strong>tag</strong> <code>table</code> e ,dentro dela, algumas tags de definição de conteúdo, tais como: </p>
+    <ul>
+      <li><code>tr</code>(Table Row)- Linha da tabela</li>
+      <li><code>th</code>(Table Header)- Cabeçalho da tabela</li>
+      <li><code>td</code>(Table Data)- Dado da tabela</li>
+    </ul>
+    <p>Uma simples tem geralmente esta aparência:</p>
+    <table>
+      <tr class="cinza" >
+        <th>código</th>
+        <th>Nomes</th>
+        <th>Dados</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Alfredo</td>
+        <td>Dado 1</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Ghilherme</td>
+        <td>Dado 2</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Larissa</td>
+        <td>Dado 3</td>
+      </tr>
+    </table>
+    <h2>Anatomia de Tabelas</h2>
+    <p>Essa anatomia é ultilizada para tabelas grandes e melhorar o resultado em <strong>sites de busca</strong>, consiste em adicionar os seguintes elementos na tabela: </p>
+    <ul>
+      <li><code>caption</code>- Legenda/Descrição</li>
+      <li><code>thead</code> - Cabeçalho</li>
+      <li><code>tbody</code>- Corpo</li>
+      <li><code>tfoot</code>- Rodapé</li>
+    </ul>
+    <p>Todos elementos podem conter seus proprios<code> tr, td e th</code>(Menos o caption) </p>
+    <p>Independente da ordem que voçê colocar tags de anatomia , o navegador <strong>Sempre</strong> vai organizar na ordem correta.</p>
+    <h2>Scope</h2>
+    <p>É um atributo de um th que indica para qua direção o titlo está mostrando os dados, pode ter os valores:</p>
+    <ul>
+      <li><code>row</code>- Dados em Linha</li>
+      <li><code>col</code>- Dados em coluna</li>
+      <li><code>colgroup</code>- Dados num conjunto de colunas(para células mescladas)</li>
+      <li><code>rowgroup</code>- Dados num conjunto de linhas(Para células mescladas)</li>
+    </ul>
+    <p>obs: esse atributo é extremamente útil para ajudar o site a ser relevante em <strong>sites de buscas</strong>.</p>
+    <p>Um exemplo de uma tabela ultilizando todos os atributos da anatomia citada a cima pode ser visto a seguir:</p>
+    <table >
+     
+        <tr class="bb">
+          <th colspan="2">Boletim</th>
+        
+          </tr>
+          <td>Aluno</td>
+          <td>Nota</td>
+          <tr>
+        
+          <td>Ana</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Dimi</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Gustavo</td>
+          <td>10</td>
+        
+        </tr>
+        <tr>
+          <td>Lais</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Rodrigo</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Samira</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Vinicius</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Média</td>
+          <td>7,2</td>
+        </tr>
+      
+    </table>
+    </article>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body{
+  background-color: aqua;
+
+}
+main{
+  border: 1px solid black;
+  background-color: white;
+      width: 620px;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 100px;
+      margin-top: 0px;
+      
+}
+header{
+  background-color: black ;
+ 
+
+  
+ 
+}
+header h1{
+  color: cornflowerblue;
+text-align: center;
+margin-top: 0px;
+padding: 15px;
+
+}
+table{
+  border-collapse: collapse;
+text-align: center;
+margin: auto;
+}
+td,th{
+  border: 1px solid black;
+  
+  
+  padding-left: 1px;
+width: 100px;
+}
+.cinza{
+  background-color: #69696994;
+}
+.bb{
+  background-color: black;
+  color: white;
+}
+p{
+  text-indent: 1.3em;
+}
+
+
+
+      

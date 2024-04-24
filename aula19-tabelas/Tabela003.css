@@ -1,0 +1,22 @@
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+}
+table{
+  border-collapse: collapse;
+  margin: auto;
+  position: relative;
+
+}
+td,th{
+  border: 1px solid black;
+  text-align: center;
+}
+tr:nth-child(even) /*2n pra numeros pares 2n-1 para nuneros impares*/{
+  background-color: aqua;
+}
+th{
+  background-color: black;
+  color: white;
+  position: sticky ;
+  top: -1px;
+}
