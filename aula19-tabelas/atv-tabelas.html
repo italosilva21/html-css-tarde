@@ -13,14 +13,14 @@
   <main>
     <article>
       <h2>Tabelas Simples</h2>
-    <p>Tabelas são um recurso muito importante para a organização dados no geral,em HTML, para criar uma tabela usa-se a <strong>tag</strong> <code>table</code> e ,dentro dela, algumas tags de definição de conteúdo, tais como: </p>
+    <p>Tabelas são um recurso muito importante para a organização dados no geral,em <abbr title="Linguagem de Marcação de Hipertexto ">HTML</abbr>, para criar uma tabela usa-se a <strong>tag</strong> <code>table</code> e ,dentro dela, algumas tags de definição de conteúdo, tais como: </p>
     <ul>
       <li><code>tr</code>(Table Row)- Linha da tabela</li>
       <li><code>th</code>(Table Header)- Cabeçalho da tabela</li>
       <li><code>td</code>(Table Data)- Dado da tabela</li>
     </ul>
     <p>Uma simples tem geralmente esta aparência:</p>
-    <table>
+    <table class="tabela">
       <tr class="cinza" >
         <th>código</th>
         <th>Nomes</th>
@@ -42,7 +42,7 @@
         <td>Dado 3</td>
       </tr>
     </table>
-    <h2>Anatomia de Tabelas</h2>
+    <h2  class="linha">Anatomia de Tabelas</h2>
     <p>Essa anatomia é ultilizada para tabelas grandes e melhorar o resultado em <strong>sites de busca</strong>, consiste em adicionar os seguintes elementos na tabela: </p>
     <ul>
       <li><code>caption</code>- Legenda/Descrição</li>
@@ -62,14 +62,14 @@
     </ul>
     <p>obs: esse atributo é extremamente útil para ajudar o site a ser relevante em <strong>sites de buscas</strong>.</p>
     <p>Um exemplo de uma tabela ultilizando todos os atributos da anatomia citada a cima pode ser visto a seguir:</p>
-    <table >
+    <table class="boletim amigos" >
      
-        <tr class="bb">
-          <th colspan="2">Boletim</th>
+        <tr>
+          <caption>Boletim</caption>
         
           </tr>
-          <td>Aluno</td>
-          <td>Nota</td>
+          <td class="bb">Aluno</td>
+          <td class="bb">Nota</td>
           <tr>
         
           <td>Ana</td>
@@ -101,14 +101,102 @@
           <td>8</td>
         </tr>
         <tr>
-          <td>Média</td>
-          <td>7,2</td>
+          <td class="bb">Média</td>
+          <td class="bb">7,2</td>
         </tr>
       
     </table>
-    </article>
-  </main>
+    <h2 class="linha">Mesclagem de Células</h2>
+    <p>MEsclar células em uma tabela é algo bem comum e importante, em <abbr title="Linguagem de Marcação de Hipertexto ">HTML</abbr>, é necessario colocar os seguintes atributos nas tags <code>th</code> ou <code>td</code>:</p>
+    <ul>
+      <li><code>colspan</code>- Mesclagem em coluna.</li>
+      <li><code>rowspan</code>- Mesclagem de linha.</li>
+    </ul>
+    <p>Depois, adiciona-se o valor que representa o número de células que ela irá ocupar. Um exemplo pode seer visto a seguir:</p>
+    <table class="fla">
+    
+      <tr>
+        <td>A</td>
+        <td  class="bo"      colspan="2">B</td>
+      </tr>
+      <tr>
+        <td class="bo"      rowspan="4">C</td>
+        
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>E</td>
+        
+      </tr>
+      <tr>
+        <td>G</td>
+        <td>F</td>
+       
+      </tr>
+    </table>
+    <h2 class="linha">Estilização de Colunas</h2>
+    <p>Para especificar uma coluna em uma tabela HTMl, usa-se a tag <code>colgroup</code>, ela é uma que define as <strong>colunas</strong> em uma tabela, cada coluna é representada por uma tag <code>col</code> que fica dentro de <code>colgroup</code> isso facilita na hora de estilizar colunas no CSS.</p>
+    <p>A tag <code>col</code> possui o <strong>parâmetro</strong> <code>span</code> que especifica quantas colunas uma mesma tag <code>col</code> pode representar.</p>
+    <p>Um exemplo dde tabela com colunas estilizadas:</p>
+    <table class="mundial">
+      <colgroup>
+        <col class="Azul">
+        <col class="Verde">
+        <col class="Verde">
+        <col class="Azul">
+      </colgroup>
+    
+      <tr class="bbo">
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Sexo</th>
+        <th>Profissão</th>
+      </tr>
+      
+      <tr>
+        <td>Ana Maria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Jornalista</td>
+      </tr>
+      <tr>
+        <td>Claudio</td>
+        <td>M</td>
+        <td>28</td>
+        <td>Programador</td>
+      </tr>
+      <tr>
+        <td>Gustavo</td>
+        <td>M</td>
+        <td>42</td>
+        <td>Professor</td>
+      </tr>
+      <tr>
+        <td>Heitor</td>
+        <td>M</td>
+        <td>19</td>
+        <td>Vendedor</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>F</td>
+        <td>39</td>
+        <td>Médica</td>
+      </tr>
+      <tr>
+        <td>Otávio</td>
+        <td>M</td>
+        <td>22</td>
+        <td>Nutricionista</td>
+      </tr>
+    </table>
+  </article>
+</main>
 
 </body>
 
 </html>
+      
+        
+        
+      

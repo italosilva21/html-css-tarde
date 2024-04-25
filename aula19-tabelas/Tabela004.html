@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesclagem</title>
+</head>
+<style>
+  td {
+    border: 1px solid black;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  .cestado{
+    background-color: yellow;
+
+  }
+  .ccidades{
+    background-color: #ccc;
+    font-family: calibri;
+    font-weight: bold;
+  }
+</style>
+
+<body>
+  <h2>Mesclagem de Celulas</h2>
+  <table>
+    <colgroup>
+      <col class="cestado">
+      <col class="ccidades">
+    </colgroup>
+    <caption>Brasil</caption>
+    <tr>
+      <td>Estado</td>
+      <td>Cidades</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Céara</td>
+      <td>Fortalza</td>
+    </tr>
+    <tr>
+
+      <td>Mauriti</td>
+    </tr>
+    <tr>
+
+      <td>Milagres</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <Caption>Ultilizando mesclagem <code>colspan</code></Caption>
+    <tr>
+      <td colspan="5">Boletim Escolar</td>
+
+    </tr>
+    <tr>
+      <td >Disciplinas</td>
+      <td>1º BIM</td>
+      <td>2º BIM</td>
+      <td>3º BIM</td>
+      <td>4º BIM</td>
+    </tr>
+  </table>
+</body>
+
+</html>

@@ -1,5 +1,14 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+
 body{
-  background-color: aqua;
+  background-color:cyan;
 
 }
 main{
@@ -19,36 +28,106 @@ header{
   
  
 }
+h2{
+  font-family: "Roboto Slab", serif;
+}
 header h1{
   color: cornflowerblue;
 text-align: center;
 margin-top: 0px;
 padding: 15px;
+fofont-family: "Roboto Slab", serif;
 
 }
-table{
+.tabela{
   border-collapse: collapse;
-text-align: center;
-margin: auto;
-}
+  margin: auto;
+  text-align: center;
+  
+  }
+  .tabela td, th{
+    padding: 8px;
+  }
 td,th{
   border: 1px solid black;
-  
-  
   padding-left: 1px;
 width: 100px;
+font-family: "Source Sans 3", sans-serif;
 }
+  
+
+  
 .cinza{
   background-color: #69696994;
 }
-.bb{
-  background-color: black;
-  color: white;
-}
-p{
+
+p , li{
   text-indent: 1.3em;
+  font-family: "Source Sans 3", sans-serif;
+}
+.boletim tr:nth-child(2n){
+  background-color: #a0a0a0ab;
+
+}
+caption{
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+}
+.bb{
+  background-color:#666  ;
 }
 
+.Azul{
+background-color: #7f00ff;
+}
+.Verde{
+  background-color: #32cd99;
+}
+.bo{
+  background-color: #6666668f ;
+}
+.bbo{
+  background-color: #666;
+}
+.linha{
+  border-top: 1px solid  #7f00ff ;
 
+}
+h2{
+  padding-top: 15px;
+}
+.amigos{
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+  
+
+}
+.amigos td,th{
+  padding: 8px;
+}
+.fla{
+  border-collapse: collapse;
+ width: 150px ;
+ height: 150px;
+  margin: auto;
+  text-align: center;
+  
+
+}
+.fla td, th{
+padding: 8px;
+}
+.mundial{
+  border-collapse: collapse;
+  
+  margin: auto;
+  text-align: center;
+
+}
+.mundial td, th{
+  padding: 8px;
+}
 
       
