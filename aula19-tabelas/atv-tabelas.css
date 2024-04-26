@@ -36,7 +36,7 @@ header h1{
 text-align: center;
 margin-top: 0px;
 padding: 15px;
-fofont-family: "Roboto Slab", serif;
+font-family: "Roboto Slab", serif;
 
 }
 .tabela{
@@ -129,5 +129,36 @@ padding: 8px;
 .mundial td, th{
   padding: 8px;
 }
+.responsa {
+  border-collapse: collapse;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 8px;
+  text-align: center;
+  width: 800px;
+
+}
+.responsa tr:nth-child(2n-1){
+  background-color:  #6666668f ;
+}
+.responsa td,th{
+  padding: 8px;
+}
+.lia{
+padding: 15px;
+}
+.negrito{
+  font-weight: bold;
+}
+div{
+  overflow-x: scroll;
+}
+a{
+  color: orangered;
+  text-decoration: none;
+border: 1px solid black;
+background-color: #666;
+}
+
+
 
       

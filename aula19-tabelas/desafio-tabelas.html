@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="desafio-tabelas.css">
+</head>
+<body>
+  <header><h1>Tabelas</h1></header>
+  <main>
+    <article>
+      <p>Nesta página há um total de 4 desafios propostos para o uso de <strong>tabelas.</strong></p>
+      <h2>Mesclagem</h2>
+    <p>Esses são dois desafios com o intuito a <strong>mesclagem de células.</strong></p>
+    <table class="donald">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td rowspan="2">3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
+        
+        <td>7</td>
+      </tr>
+      <tr>
+        <td colspan="3">8</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td rowspan="2">10</td>
+        <td colspan="2">11</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+      </tr>
+    </table>
+    <br>
+    <table class="mesclar">
+      <tr>
+        <td colspan="4">A</td>
+        <td rowspan="4">B</td>
+        
+      </tr>
+      <tr>
+        <td rowspan="4">C</td>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+        
+      </tr>
+      <tr>
+        <td>G</td>
+        <td>H</td>
+        <td>I</td>
+      </tr>
+      <tr>
+        <td>J</td>
+        <td>L</td>
+        <td>M</td>
+      </tr>
+      <tr>
+        <td colspan="4">N</td>
+      </tr>
+    </table>
+    <h2>Geral</h2>
+    <p>Esses são desafios mais completos, com o intuito de entender todas as tags e atributos pertencentes a uma tabela em HTML, incluindo responsividade.</p>
+    <table class="Geral">
+      <caption>Filmes Favoritos</caption>
+      <tr class="cor negrito">
+        <td >Grupo</td>
+        <td >Nomes</td>
+        <td colspan="3">Filmes</td>
+      </tr>
+      <tr>
+        <td class="cor negrito" rowspan="3">Mulheres</td>
+        <td>Ana Maria Santos </td>
+        <td>Alien</td>
+        <td> inception</td>
+        <td>Vingadores</td>
+      </tr>
+      <tr>
+        <td>Beatriz Sousa</td>
+        <td>Hulk</td>
+        <td>inception</td>
+        <td>Batman</td>
+      </tr>
+      <tr>
+        <td>Claudia Melo</td>
+        <td>Hulk</td>
+        <td>inception</td>
+        <td>Vingadores</td>
+      </tr>
+      <tr>
+        <td  class="cor negrito" rowspan="3">Homens</td>
+        <td>Bruno Menconça</td>
+        <td>Star Wars 5</td>
+        <td> Amnésia></td>
+        <td>Batman</td>
+      </tr>
+      <tr>
+        <td>Daniel Lourenço</td>
+        <td>Star Wars 5</td>
+        <td>Matrix</td>
+        <td>Vingadores</td>
+      </tr>
+      <tr>
+        <td>Fabiano Mota</td>
+        <td>Star Wars 5</td>
+        <td>Matrix</td>
+        <td>Vingadores</td>
+      </tr>
+      <tr class="cor">
+        <td  class="negrito"  rowspan="3"       colspan="3">Filmes mais favoritos</td>
+        <td class="negrito">Homens</td>
+        <td>Star Wars 5</td>
+      </tr>
+      <tr class="cor">
+        <td class="negrito">Mulheres</td>
+        <td>Inception</td>
+      </tr>
+      <tr class="cor ">
+        <td  class="negrito">Geral</td>
+        <td>Vingadores</td>
+      </tr>
+    </table>
+    <br>
+    <table class="exalta">
+      <caption>Boletim Escolar</caption>
+      <tr class="media">
+        <td rowspan="2">Aréa</td>
+        <td rowspan="2">Disciplinas</td>
+        <td colspan="2">Notas</td>
+        <td rowspan="2">Media</td>
+      </tr>
+      <tr class="media">
+        <td>Nota 1</td>
+        <td>Nota 2</td>
+      </tr>
+      <tr>
+        <td rowspan="4">Exatas</td>
+        <td>Matemática</td>
+        <td>5.7</td>
+        <td>7.6</td>
+        <td>6.6</td>
+      </tr>
+      <tr>
+      <td>Fisica</td>
+      <td>6.8</td>
+      <td>5.2</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>Quimica</td>
+      <td>7.4</td>
+      <td>9.5</td>
+      <td>8.4</td>
+     
+    </tr>
+    <tr>
+      <td>Biologia</td>
+      <td>5.7</td>
+      <td>7.6</td>
+      <td>6.6</td>
+    </tr>
+    <tr>
+      <td colspan="4" class="media">Medias de Exatas</td>
+      <td class="tri">6.0</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Humanas</td>
+      <td>historia</td>
+      <td>7.8</td>
+      <td>7.5</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Geografia</td>
+      <td>9.5</td>
+      <td>6.7</td>
+      <td>8.1</td>
+    </tr>
+    <tr >
+    <td colspan="4"       class="media">Media de Humanas</td>
+    <td  class="tri">7.8</td>
+    </tr>
+    <tr >
+      <td   colspan="4"    class="media">Média Total </td>
+      <td class="tri">7.3</td>
+    </tr>
+     
+
+    </table>
+    <p>Acessse <a href="/aula19-tabelas/atv-tabelas.html">Aqui</a> para voltar ao exercicio<strong>Desafio</strong></p>
+    </article>
+
+  </main>
+      
+     
+   
+    
+     
+       
+
+  
+</body>
+</html>
