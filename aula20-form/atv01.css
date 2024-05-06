@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+  font-family: "source sans 3";
+}
+
+main{
+  border: 1px solid black;
+  margin: 20px;
+}
+.tudo{
+border: 1px solid black;
+border-radius: 6px;
+padding-left: 5px;
+padding-right: 5px;
+color: white;
+background-color: #bf8c91 ;
+padding: 5px;
+margin: 20px;
+margin-right: 500px;
+width: 200px;
+}
+.tropa{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  background-color: #bf8c91 ;
+ 
+
+}
