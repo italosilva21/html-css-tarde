@@ -1,34 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-body{
+body {
   font-family: "source sans 3";
 }
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: #7494be;
+}
+.centeri {
+  text-align: center;
+}
+main {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #f1f1ea;
+}
+.colunas {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  gap: 5px;
+}
 
-main{
+footer {
+  background-color: #7494be;
+}
+
+article {
   border: 1px solid black;
+  
   margin: 20px;
+  width: 800px;
+  margin: auto;
+  background-color: white;
 }
-.tudo{
-border: 1px solid black;
-border-radius: 6px;
-padding-left: 5px;
-padding-right: 5px;
-color: white;
-background-color: #bf8c91 ;
-padding: 5px;
-margin: 20px;
-margin-right: 500px;
-width: 200px;
+fieldset {
+  border: 1px solid #bf8c91;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 100px;
+ 
 }
-.tropa{
+
+.tudo {
+  border: 1px solid black;
+  border-radius: 20px;
+
+  color: white;
+  background-color: #bf8c91;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  width: 200px;
+}
+.tropa {
   border: 1px solid black;
   border-radius: 6px;
   padding-left: 5px;
   padding-right: 5px;
   color: white;
-  background-color: #bf8c91 ;
- 
+  background-color: #bf8c91;
+}
+.turun {
+  border: 1px solid black;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #78a8bf;
+  color: white;
+}
+.tiran {
+  border: 1px solid black;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #78a8bf;
+  color: white;
+}
 
+
+h3 {
+  color: #78a8bf;
+}
+label {
+  color: #7494be;
+}
+legend {
+  color: #bf8c91;
+}
+input {
+  border: 1px solid #bf8c91;
 }
