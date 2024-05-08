@@ -4,47 +4,79 @@
 
 body {
   font-family: "source sans 3";
+
+
+}
+main{
+  background-color: wheat;
+  margin: 20px;
+  width: 520px;
+  margin: auto;
+  
 }
 h1 {
   text-align: center;
+  color: white;
+  font-family:"Roboto Slab" ;
+  
 }
 h2 {
   text-align: center;
   color: #7494be;
+  font-family:"Source Sans 3" ;
 }
 .centeri {
   text-align: center;
 }
-main {
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: #f1f1ea;
-}
+
 .colunas {
   display: flex;
   justify-content: center;
-  width: 800px;
+  width: 500px;
+  
   
 }
+.espaço{
 
+  text-align: center;
+}
 footer {
   background-color: #7494be;
+  text-align: center;
+  
+  
+  
+
+}
+header{
+  background-color:#7494be;
+  
+  
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 
 article {
   border: 1px solid black;
   
   margin: 20px;
-  width: 800px;
+  width: 500px;
   margin: auto;
   background-color: white;
+  height: 1080px;
 }
 fieldset {
   border: 1px solid #bf8c91;
-  width: 700px;
+  width: 200px;
   margin: auto;
   margin-bottom: 100px;
+  
  
+}
+.furt{
+  text-align: center;
 }
 
 .tudo {
@@ -88,15 +120,25 @@ fieldset {
 
 h3 {
   color: #78a8bf;
+  font-family:"Source Sans 3" ;
 }
 label {
   color: #7494be;
+  font-family:"Source Sans 3" ;
 }
 legend {
   color: #bf8c91;
+  
 }
 input {
   border: 1px solid #bf8c91;
+  
+}
+.trote{
+  width: 50px;
+}
+.grande{
+  width: 300px;
 }
 .local{
   display: flex;
