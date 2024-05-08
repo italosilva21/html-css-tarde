@@ -24,7 +24,7 @@ main {
   display: flex;
   justify-content: center;
   width: 800px;
-  gap: 5px;
+  
 }
 
 footer {
@@ -41,7 +41,7 @@ article {
 }
 fieldset {
   border: 1px solid #bf8c91;
-  width: 400px;
+  width: 700px;
   margin: auto;
   margin-bottom: 100px;
  
@@ -97,4 +97,9 @@ legend {
 }
 input {
   border: 1px solid #bf8c91;
+}
+.local{
+  display: flex;
+  gap: 2px;
+  justify-content: center;
 }
