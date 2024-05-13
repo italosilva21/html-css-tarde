@@ -1,0 +1,21 @@
+section{
+  background-color: #4169E1 ;
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+.espaço{
+  padding: 25px;
+  color: aliceblue;
+}
+.linha{
+  border-top: 1px solid  white ;
+}
+.trf{
+  padding: 8px;
+  border: 1px solid  #4169E1;
+  background-color: #4169E1;
+  color: white;
+}
