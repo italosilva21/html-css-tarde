@@ -9,31 +9,38 @@
 <body>
   <main>
     <h1>Vamos ficar em contato</h1>
-    <p>Somos um estúdio ambicioso e procuramos pessoas entusiasmadas para se juntarem á nossa equipe.</p>
+    <p class="tbt">Somos um estúdio ambicioso e procuramos pessoas entusiasmadas para se juntarem á nossa equipe.</p>
     <section>
-      <form action=""></form>
+      <form action="https://api.staticforms.xyz/submit" method="POST">
+      <input type="hidden" name="accessKey" value="0ea30bb7-966f-4b1c-b36f-a5f45ddc585d">
       <p>
         <label class="espaço" for="idemail">Email:</label>
         <br>
-        <input class="trf" type="email" name="email" id="idemail" value="Enter a valid email addres"">
+        <input class="trf" type="email" name="email" id="idemail" placeholder="Enter a valid email addres">
       </p>
       <p class="linha">
         <label class="espaço"  for="idname">Name:</label>
         <br>
-        <input type="text" name="name" id="idname" value="Enter your Name">
+        <input class="trf" type="text" name="name" id="idname" placeholder="Enter your Name">
         
       </p>
       <p class="linha">
         <label class="espaço" for="idmessage">Message</label>
         <br>
-        <textarea name="message" id="idmessage" > Enter your message</textarea>
+        <textarea class="trf" name="message" id="idmessage" placeholder="Enter your message"></textarea>
        
       </p>
-      <p class="linha">
-        <input class="trf"     type="button" value="Enviar">
-      </p>
+      
+        <div class="linha">
+          <input class="tudo"     type="submit" value="Enviar">
+        </div>
+      </form>
+      
     </section>
   </main>
+  <footer>
+   <p>Criado por <a class="ok" href="https://github.com/italosilva21">Italosilva</a></p>
+  </footer>
   
 </body>
 </html>
