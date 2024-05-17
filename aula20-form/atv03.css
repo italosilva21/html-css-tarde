@@ -1,0 +1,44 @@
+
+main{
+  
+  padding-top:100px;
+  display: flex;
+  border: 1px solid white;
+  width: 600px;
+  margin: auto;
+  height: 300px;
+  background-color: #F2F2F2;
+}
+.ok{
+padding-top: 10%;
+padding-left: 70px;
+}
+.tabela{
+  padding-left: 15%;
+  
+}
+footer{
+  background-color: black;
+height: 110px;
+}
+.ox{
+  color: aliceblue;
+  text-align: center;
+  padding-top: 5%;
+}
+.oxente{
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.brt{
+  background-color: wheat;
+ padding:10px;
+  width: 90px;
+  border: white;
+}
+
